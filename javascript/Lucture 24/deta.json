@@ -1,0 +1,24 @@
+{
+    "product":[
+        {
+            "id":1,
+            "productName":"iphone",
+            "productColor":"gray"
+        },
+        {
+            "id":2,
+            "productName":"iphone",
+            "productColor":"gray"
+        },
+        {
+            "id":3,
+            "productName":"iphone",
+            "productColor":"gray"
+        },
+        {
+            "id":4,
+            "productName":"iphone",
+            "productColor":"gray"
+        }
+    ]
+}

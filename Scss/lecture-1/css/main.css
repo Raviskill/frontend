@@ -1,0 +1,26 @@
+/* flex-container */
+.box {
+  background-color: yellow;
+  height: 300px;
+  width: 400px;
+}
+
+/* flex-container */
+.main {
+  height: 100px;
+  width: 200px;
+}
+
+.main2 {
+  height: 200px;
+  width: 400px;
+}
+
+/* Sass @functions */
+.main {
+  height: 200px;
+}
+
+.main2 {
+  height: 300px;
+}/*# sourceMappingURL=main.css.map */

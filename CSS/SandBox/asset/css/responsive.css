@@ -1,0 +1,192 @@
+/* sandbox start */
+
+/* Media Queries */
+
+/*
+320px
+576px
+768px
+992px
+1199px
+1399px
+*/
+
+@media (max-width:1399px){
+    .photos_childe image
+    {
+    display: block;
+    }
+    .SEO_Services
+    {
+        padding-left: 200px;
+    }
+
+   
+   
+}
+@media (max-width:1199px){
+    .SEO_Services
+    {
+        padding-left: 300px;
+    }
+
+    .Coriss_Ambady
+{
+display: grid;
+grid-template-columns: auto auto ;
+gap: 35PX;
+text-align: left;
+}
+
+    
+   
+}
+@media (max-width:992px) {
+  
+
+    .mobile-menu{
+        display: block;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+         .main-header
+    {
+        display: inline;
+        text-align: center;
+    } 
+    .ANALYZE_NOW_in_cantene
+    {
+        display: none;
+    }
+    .SEO_Services
+    {
+        padding-left: 300px;
+    }
+    .OUR_STRATEGY
+{
+    display: block;
+}
+.Collect_Ideas 
+{
+    position: relative;
+    left:0;
+}
+  
+.hello
+{
+    display: block;
+}
+}
+@media (max-width:768px){
+    .right_and_content
+{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+
+}
+    
+
+    .OUR_SOLUTIONS_contnt h1
+    {
+        font-size: calc(7vw);
+
+    
+    }
+    
+    .OUR_SOLUTIONS_contnt h4
+    {
+        font-size: calc(3vw);
+        color: #aab0bc;
+    
+    }
+    
+    .OUR_SOLUTIONS_contnt p{
+        font-size: calc(3.4vw);
+
+    }
+    .OUR_SOLUTIONS_contnt
+    {
+        max-width: 600px;
+    
+    }
+    .OUR_SOLUTIONS_contnt span{
+        font-size: calc(2.4vw);
+    
+    }
+    .OUR_SOLUTIONS
+ {
+    display: block;
+ }
+    .Coriss_Ambady
+{
+display: grid;
+grid-template-columns: auto ;
+gap: 35PX;
+text-align: left;
+}
+
+    .heding_div h1
+    {
+        font-size: calc(5vw);
+        text-align: center;
+    }
+    .ANALYZE_NOW pre
+    {
+    font-size: calc(3vw);
+    }
+   
+    .nav-items{
+        display: none;
+    }
+.ANALYZE_NOW
+{
+    display: block;
+}
+
+  .SEO_Services
+{
+    padding-left: 130px;
+}
+.why{
+    
+    display: block;
+
+}
+.Think_unique h1
+{
+    font-size: calc(3.5vw);
+    text-align: center;
+}
+   
+}
+@media (max-width:576px){
+    .info-header pre
+    {
+        padding-top: 20px;
+        font-size: calc(4vw);
+        font-family: "Roboto", sans-serif;
+    
+    }
+    .info-header h1
+{
+    
+    font-size: 7vw;
+    padding-top:80 px;
+
+}
+.service_heding h1
+{
+    font-size: 6vw;
+    text-align: center; 
+}
+ .SEO_Services
+{
+    padding-left: 0px;
+}
+   
+}
+@media (max-width:320px){
+    
+   
+}

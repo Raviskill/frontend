@@ -1,0 +1,14 @@
+
+.Overflow
+
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: auto; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

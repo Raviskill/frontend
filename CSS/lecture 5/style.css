@@ -1,0 +1,49 @@
+.psudo
+{
+color: rgb(57, 0, 68);
+}
+
+.button
+{
+    color: rgb(16, 1, 1);
+}
+/* .button:hover
+{
+    color: blue;
+    background-color: aquamarine;
+} */
+
+/* p:first-child
+{
+    color: blue;
+} */
+
+/* p:last-child
+{
+    color: brown;
+} */
+
+/* p:nth-child(4)
+{
+    color: chartreuse;
+} */
+
+/* p:nth-child(odd)
+{
+    color: cornflowerblue;
+} */
+
+/* .link:link
+{
+    background-color: chartreuse;
+
+} */
+
+.link:visited
+{
+    color: blueviolet;
+    background-color: brown;
+}
+
+
+

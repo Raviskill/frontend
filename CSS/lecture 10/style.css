@@ -1,0 +1,49 @@
+.main
+{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 75px 250px 250px 100px;
+    gap: 35PX;
+    text-align: center;
+    font-size: 65px;
+    
+
+    
+}
+.grid
+{
+    border: 2px solid black;
+    background-color: chartreuse;
+}
+
+
+.ch1
+{
+    grid-column: 1 / 4;
+    background-color: aqua;
+}
+
+.ch2
+{
+    grid-row: 2/4;
+    background-color: blueviolet;
+}
+
+.ch3
+{
+    grid-column: 2/4;
+    background-color: chartreuse;
+}
+.ch6
+{
+    grid-column: 1 / 4;
+    background-color: aquamarine;
+}
+
+.perant_class{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

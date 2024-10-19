@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.main_div
+{
+     /* max-width: 1200px;  */
+    display: flex;
+     /* padding-left: 200px; */
+     height: 200px;
+}
+
+ .main_div div{
+    border: 2px solid black;
+    flex-grow: 1;  
+     /* flex-basis: 80px;  */
+} 
+
+/* .main_div :nth-child(5)
+{
+     flex-grow: 3; 
+
+}
+.main_div :nth-child(6)
+{
+     flex-grow: 3; 
+    flex-shrink: 15;
+
+}   */

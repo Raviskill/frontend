@@ -1,0 +1,70 @@
+.font_style{
+    font-style: italic;
+}
+.font_variant
+{
+    font-variant: small-caps;
+}
+
+.font-weight
+{
+    font-weight: 900;
+}
+
+.font-size
+{
+    font-size: xx-small;
+}
+.font-family
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-color
+{
+    color: burlywood;
+}
+.TextA_lignment
+{
+    text-align: right;
+}
+.Text_Decoration{
+    text-decoration: underline;
+}
+.Text_Transformation
+{
+    text-transform: lowercase;
+}
+.Text_Spacing
+{
+    letter-spacing: 3px;
+}
+.Text_Shadow
+{
+    text-shadow: 2px 1px rgb(170, 48, 48);
+}
+
+.peding1
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 20px;
+    
+}
+
+.peding2
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 20px 30px 40px 50px;
+}
+
+.peding3
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 100px 100px 100px 100px;
+}

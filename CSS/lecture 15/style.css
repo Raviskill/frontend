@@ -1,0 +1,16 @@
+.animesan
+{
+    font-size: 5cm;
+    color:orange;
+    animation-name: sun;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+    
+}
+
+@keyframes sun{
+    
+    
+
+}

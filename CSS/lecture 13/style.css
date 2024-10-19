@@ -1,0 +1,35 @@
+
+.maindiv
+{
+    height: 1000px;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+
+    /* ------------------------------------flex-direction------------------------------------ */
+    flex-direction: column; 
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* justify-content :center ; */
+
+    /* align-items: end; */
+
+    /* align-content: space-between; */
+    
+    
+
+
+}
+
+
+
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 50px;
+}

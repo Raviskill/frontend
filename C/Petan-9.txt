@@ -1,0 +1,29 @@
+a
+bC
+dEf
+gHij
+kLmNo
+
+#include <stdio.h>
+
+int main()
+{
+ int i,j,n=65;
+ for(i='E';i>='A';i--)
+ {
+     for(j='E';j>=i;j--)
+     {
+         if(j%2==1)
+         {
+         printf("%c",n+++32);
+         }
+         else
+         {
+             printf("%c",n++);
+         }
+     }
+     printf("\n");
+ }
+
+    return 0;
+}

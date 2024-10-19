@@ -1,0 +1,28 @@
+
+
+#id{
+    color: chartreuse;
+    background-color: blue;
+
+}
+
+.class{
+    color: crimson;
+    background-color: lightpink;
+}
+p{
+    color: black;
+    background-color: aliceblue;
+    border: 2px solid;
+}
+.parant
+{
+     color: green;
+     background-color: lightcoral;
+}
+p,h1,h2{
+    color: black;
+    background-color: aliceblue;
+    border: 2px solid;
+
+}

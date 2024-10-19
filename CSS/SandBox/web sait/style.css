@@ -1,0 +1,629 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* page 1 */
+.img {
+    background-image: url(photo1.jpg);
+
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+
+
+
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0;
+}
+
+.logo {
+    padding: 25px 25px 25px 35px;
+
+}
+
+nav ul {
+    list-style: none;
+    width: 50%;
+    text-align: center;
+    padding: 10px 300px;
+    font-family: Oswald, sans-serif;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.Brooklyn {
+
+
+    color: aliceblue;
+    padding-top: 220px;
+    font-size: large;
+    text-align: center;
+    top: 320px;
+    left: 850px;
+    font-size: 25px;
+    font-family: Oswald, sans-serif;
+}
+
+.dream_scalpes {
+    color: aliceblue;
+    font-size: 3.5cm;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+
+}
+
+.Lorem_ipsum {
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: larger;
+
+}
+
+.button {
+    background-color: rgb(223, 188, 14);
+    height: 50px;
+    width: 200px;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.button:hover {
+    background-color: black;
+
+}
+
+.button_pogisan {
+    text-align: center;
+    padding-top: 20px;
+    border: none;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* page 2 */
+
+
+.page_2 {
+    position: relative;
+}
+
+.photo2 {
+    display: inline-block;
+    padding-top: 200px;
+    padding-left: 900px;
+    display: inline-block;
+}
+
+
+.About_Shop {
+    color: rgba(208, 192, 7, 0.988);
+    font-weight: 700;
+    font-size: large;
+    font-family: Oswald, sans-serif;
+}
+
+.ABOUT_US {
+    font-size: 1cm;
+    font-family: Oswald, sans-serif;
+
+}
+
+
+.alteration {
+    font-size: large;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+
+
+}
+
+.READ_MORE {
+    background-color: rgb(223, 188, 14);
+    height: 40px;
+    width: 170px;
+    font-size: large;
+    color: white;
+}
+
+.READ_MORE:hover {
+    background-color: black;
+
+}
+
+.secondpag_contrnt {
+    position: absolute;
+    right: 800px;
+    top: 250px;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* page 3*/
+
+.OUR_PRODUCTION {
+    font-size: 1.5cm;
+    padding-top: 7%;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+
+}
+
+.OUR_PRODUCTION::before {
+    content: "--------";
+    color: #ffc107;
+}
+
+.OUR_PRODUCTION::after {
+    content: "--------";
+    color: #ffc107;
+}
+
+.icon_SS {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 80px;
+    padding-left: 200px;
+    font-size: 100px;
+}
+
+.icone_name {
+    padding-left: 180px;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 70px;
+    font-family: Oswald, sans-serif;
+}
+.icone_continte
+{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 70px;
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* page 4 */
+
+
+.photo3
+{
+    background-image: url(photo3.jpg);
+    height: 80vh;
+      width: 100%;
+     background-repeat: no-repeat;
+     position: relative;
+     background-size: cover; 
+     margin-top: 100px;
+     background-attachment: fixed;
+}
+.play_buten
+{
+padding-top: 300px;
+color: aliceblue;
+font-size: 100px;
+text-align: center;
+    
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* page 5 */
+
+.OUR_CAST
+{
+  position: relative;
+  text-align: center;
+  color: black;
+font-family: Oswald, sans-serif;
+  font-size: 1.5cm;
+  padding-top: 80px;
+  
+}
+.OUR_CAST::after
+      {
+        content: "--------";
+        color: #ffc107;
+      }
+
+      .OUR_CAST::before
+      {
+        content: "--------";
+        color: #ffc107;
+      }
+
+      .oc_main
+      {
+        display: flex;
+        width: 900;
+        padding-top:100px ;
+        padding-left: 250px;
+        
+      }
+           .oc_main pre
+           {
+            font-size: 15px;
+        
+           }
+
+           
+        .oc_main div:hover
+        {
+            background-color: yellow;
+
+
+
+        }   
+        /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+        /* page 6 */
+
+.MOVIE_GALLERY
+{
+    display: block;
+    font-family: Oswald, sans-serif;
+  padding-top: 100px;
+    text-align: center;
+    font-size: 1.5cm;
+}
+
+.MOVIE_GALLERY::before
+{
+  content: "--------";
+  color: #ffc107;
+}
+
+.MOVIE_GALLERY::after
+{
+  content: "--------";
+  color: #ffc107;
+}
+
+.ALL_CONCERTS_FESTIVALS{
+    text-align: center;
+    padding-top: 40px;
+}
+.img_4
+{
+   
+   padding-top: 100px; 
+   text-align: center;
+   
+}
+
+.img_3
+{
+    padding-top: 0px;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* page 7 */
+
+  .LATEST_VIDEOS
+  {
+      font-size: 1.5cm;
+      text-align: center;
+      padding-top: 70px;
+      font-family: Oswald, sans-serif;
+  }
+
+  .LATEST_VIDEOS::after
+      {
+          content: "--------";
+          color: #ffc107;
+        }
+
+        .LATEST_VIDEOS::before
+        {
+            content: "--------";
+            color: #ffc107;
+          }
+.Run_Away div
+{
+  display: inline-block;
+}
+  
+.Run_Away
+{
+ padding-top: 100px;
+  text-align: center;
+  height: 2cm;
+  padding-top: 40px;
+}
+
+.Run_Away h2
+{
+  line-height: 2cm;
+  
+}
+
+.Run_Away pre
+{
+font-size: 14px;
+font-weight: 900;
+  
+}
+
+.page_7 div:hover
+{
+    background-color: yellow;
+
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* page 8 */
+
+.photo40
+{
+    background-image: url(photo4.jpg);
+    height: 65vh;
+    width: 50%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: none;
+    
+}
+
+.photo4_2
+{
+    background-image: url(photo4.jpg);
+    height: 75vh;
+    width: 76%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-left: 400px;
+    padding-top: 300px;
+
+}
+
+.amet_consectetur{
+    background-color: white;
+    display:inline-block;
+    height: 250px;
+    width: 700px;
+    font-size: 20px;
+    padding-top: 120px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.stare
+{
+    color: gold;
+    display: flex;
+    justify-content:  center  ;
+}
+
+ .mini_img
+{
+    height: 100px;
+    width:  100px ;
+    border-radius: 100px;
+    border: 5px solid black;
+
+} 
+.photo4_2
+{
+padding-right:-150px ;
+    
+}
+
+.acrothemes
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-top:80px ;
+    padding-left: 150px;
+    
+}
+.desa_line
+{
+    padding-top: 70px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* page 9 */
+
+.LATEST_BLOGE
+{
+    font-size: 1.5cm;
+    text-align: center;
+    padding-top: 70px;
+    font-family: Oswald, sans-serif;
+}
+
+.LATEST_BLOGE::after
+    {
+        content: "--------";
+        color: #ffc107;
+      }
+
+      .LATEST_BLOGE::before
+      {
+          content: "--------";
+          color: #ffc107;
+        }
+
+        .page_9 pre{
+            font-size: 15px;
+            width: 900;
+        }
+
+        .page_9
+        {
+
+            width: 1500px;
+            font-family:Oswald, sans-serif ;
+            display: flex;
+            padding-left: 100px;
+            padding-top: 70px;
+            justify-content: space-around;
+            
+
+        }
+
+        /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+        /* page 10 */
+
+
+        .LETS_GET_IN_TOUCH
+        {
+            font-size: 1.5cm;
+    text-align: center;
+    padding-top: 150px;
+    font-family: Oswald, sans-serif;
+
+        }
+
+       .LETS_GET_IN_TOUCH::after
+    {
+        content: "--------";
+        color: #ffc107;
+      }
+
+      .LETS_GET_IN_TOUCH::before
+      {
+          content: "--------";
+          color: #ffc107;
+        }
+
+
+        .main_div
+        {
+            display: grid;
+            grid-template-columns: 500px 500px ;
+            grid-template-rows: 100px 100px 200px 100px;
+            font-size: 25px;
+
+        }
+
+        .info
+        {
+            border: 1px  dashed black;
+        }
+         
+        .ch5{
+            grid-column: 1 / 3;
+        }
+        .ch6{
+            grid-column: 1 / 3;
+        }
+
+        .contect_now
+        {
+            background-color: rgb(223, 188, 14);
+            height: 50px;
+            width: 200px;
+            font-size: x-large;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+
+        }
+        .page_10
+        {
+
+            padding-left: 680px;
+            padding-top: 100px;
+            
+        }
+        .MEGAONE
+        {
+              display: inline;
+              font-weight: 100;
+              font-family: Oswald, sans-serif;
+        }
+        .OFFICE
+        {
+            display: inline;
+            font-family: Oswald, sans-serif;
+            font-weight: 900;
+
+
+        }
+
+        .forme_info
+        {
+            position: relative;
+            bottom: 470px;
+            left: 50px;
+        }
+.forme_info pre
+{
+    font-size: 20px;
+
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ /* page 11 */
+
+  .google_map
+ {
+position: relative;
+bottom: 200px;
+left: 170px;
+ }
+
+.laste_icone
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 350px 800px;
+    grid-template-rows: 200px;
+    padding-left: 280px;
+    font-size: 20px;
+    padding-bottom: 100px 100px;
+    background-color: aliceblue;
+    height: 125px;
+    
+
+
+}
+.last_aditing
+{
+    height: 125px;
+    width: 1800px;
+    background-color: aliceblue;
+    position: relative;
+    
+
+    
+}
+
+

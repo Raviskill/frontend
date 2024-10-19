@@ -1,0 +1,39 @@
+@use 'main2';
+@import 'variable';
+
+
+
+@mixin sizes($height , $width) {
+    height: $height;
+    width: $width;
+}
+
+.main{
+    @include sizes(100px , 200px)
+}
+
+.main2{
+    @include sizes(200px , 400px)
+}
+
+
+/* Sass @functions */
+
+
+@function container($height){
+    @return $height * 2
+};
+
+@function container1($height){
+    @return $height * 3
+};
+
+
+
+.main{
+    height: container(100px);
+}
+
+.main2{
+    height: container1(100px);
+}

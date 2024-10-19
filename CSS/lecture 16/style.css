@@ -1,0 +1,41 @@
+.img1
+{
+    /*. object-fit: contain; */
+    /* object-fit: scale-down;  */
+    /* object-fit: fill;  */
+     object-fit: cover;
+    object-position: right;
+    
+}
+.overlay-section
+{
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+} 
+.overlay-section img
+{
+    object-fit: cover;
+    object-position: right;
+    position: absolute;
+} 
+.overlay
+{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+} 
+
+ .overlay-section:hover img
+ {
+    filter:blur(5px);
+} *
+ .overlay-section:hover .overlay-text{
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color:white;
+}  
