@@ -123,10 +123,11 @@
 // $(document).click(function() {
 //     const user = {
 //       "name": "John Wick",
-//       "age": 199,
-//       "email": "JohnWick@gmail.com"
+//       "age": 29,
+//       "email": "ravichavda@gmail.com"
 //     };
   
+
 //     $('#data').click(function() {
 //       $('#name').text("Name: " + user.name);
 //       $('#age').text("Age: " + user.age);
