@@ -3,7 +3,9 @@ import Buttoncom from './Buttoncom'
 const App = () => {
   return (
     <div>
-        <Buttoncom/>  
+
+   <Buttoncom/>
+
     </div>
   )
 }
