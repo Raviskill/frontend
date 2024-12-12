@@ -44,7 +44,7 @@ const handlclik = () => {
 
   return (
     <div>
-    <div className="bg-slate-400 h-[600px] pt-8">
+    <div className="bg-slate-400 h-[1000px] pt-8">
       <h1 className="heading bg-blue-700 text-white">
         This is React Components's Memory State
       </h1>
@@ -56,6 +56,13 @@ const handlclik = () => {
           prviouse
         </button>
       </div>
+
+      <div  className="flex pl-[630px] pb-[100px] pt-8 ">
+
+<input onChange={handleinput}></input>
+
+      <button className="btn bg-black text-white" onClick={handlclik}>Clike me</button>
+</div>
 
       <div className="flex flex-wrap justify-around gap-y-8">
         {List.map((item) => {
@@ -103,12 +110,7 @@ const handlclik = () => {
 
         })}
       </div>
-<div  className="flex pl-[630px] pt-8 ">
 
-<input onChange={handleinput}></input>
-
-      <button className="btn bg-black text-white" onClick={handlclik}>Clike me</button>
-</div>
     </div>
     </div>
   );
